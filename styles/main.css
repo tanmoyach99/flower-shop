@@ -21,6 +21,17 @@ body {
     padding: 20px 40px;
 }
 
+.shop-name {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.shop-primary {
+    color: #fff
+}
+
 /* header css */
 
 
@@ -230,7 +241,10 @@ header {
 
 .insta-img {
     width: 242px;
+    border-radius: 10px
 }
+
+/* subscribe css */
 
 .subscribe {
     background-image: url("../images/Rectangle 9.png");
@@ -278,3 +292,34 @@ header {
 .subscribe-form input[type="email"]::placeholder {
     padding: 20px
 }
+
+/* subscribe ends */
+/* footer starts */
+footer {
+    text-align: center;
+    background: #111010;
+}
+
+.footer-container {
+    padding: 100px 300px 100px 300px
+}
+
+
+
+.footer-details {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 12px;
+
+}
+
+/* footer ends */
