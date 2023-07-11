@@ -348,6 +348,12 @@ nav ul li a:hover {
     padding: 20px
 }
 
+.subscribe .primary-btn {
+    font-size: 16px;
+    margin-left: 7px;
+
+}
+
 /* subscribe ends */
 /* footer starts */
 footer {
