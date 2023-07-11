@@ -42,6 +42,9 @@ body {
     color: #fff
 }
 
+
+
+
 /* header css */
 
 
@@ -91,6 +94,8 @@ nav ul li a:hover {
 }
 
 /* nav ends */
+
+
 /* header banner starts */
 .main-banner-container {
     display: flex;
@@ -122,6 +127,8 @@ nav ul li a:hover {
     padding: 70px 200px 0 95px;
     object-fit: contain
 }
+
+/* header banner ends */
 
 /* main-css */
 
@@ -193,7 +200,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* shop-features */
+/* hero ends */
+
+/* shop-features starts */
 
 .shop-features {
     display: flex;
@@ -224,6 +233,10 @@ nav ul li a:hover {
     font-weight: 600;
 
 }
+
+/* shop features ends */
+
+
 
 /* shop-banner */
 .shop-banner {
@@ -262,6 +275,8 @@ nav ul li a:hover {
 
 }
 
+/* shop banner ends */
+
 /* insta section */
 .instagram {
     margin: 100px 240px;
@@ -298,6 +313,8 @@ nav ul li a:hover {
     width: 242px;
     border-radius: 10px
 }
+
+/* insta ends */
 
 /* subscribe css */
 
@@ -355,6 +372,8 @@ nav ul li a:hover {
 }
 
 /* subscribe ends */
+
+
 /* footer starts */
 footer {
     text-align: center;
@@ -384,3 +403,6 @@ footer {
 }
 
 /* footer ends */
+
+
+/* God bless all. Thank you */
