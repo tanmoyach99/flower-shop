@@ -241,11 +241,8 @@ nav ul li a:hover {
 
 /* shop features ends */
 
-
-
 /* shop-banner */
 .shop-banner {
-
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-between;
@@ -272,13 +269,10 @@ nav ul li a:hover {
     line-height: 30px;
 }
 
-
-
 .shop-banner-img {
     width: 318px;
     width: 40%;
     padding: 100px 300px 100px 100px;
-
 }
 
 /* shop banner ends */
@@ -315,7 +309,7 @@ nav ul li a:hover {
 }
 
 
-.insta-img {
+.instagram-img {
     width: 242px;
     border-radius: 10px
 }
