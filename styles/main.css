@@ -384,6 +384,19 @@ footer {
     padding: 100px 300px 100px 300px
 }
 
+.social-handles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.social-img {
+    width: 50px;
+
+}
+
 
 
 .footer-details {
