@@ -1,0 +1,280 @@
+/* shared css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Lato',
+        sans-serif;
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+}
+
+/* header css */
+
+
+header {
+    background: #E554731A;
+    display: flex;
+    justify-content: space-around;
+    max-height: 850px
+}
+
+.main-banner-info {
+    width: 60%;
+    margin: 240px;
+}
+
+.banner-info {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-banner-img {
+    width: 635px;
+    padding: 70px 200px 0 95px;
+    /* object-fit: cover */
+}
+
+/* main-css */
+
+/* hero-section */
+.hero-products {
+    margin-top: 100px;
+}
+
+.hero-section-title {
+
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hero-section-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 10px;
+
+}
+
+.hero-section-products {
+    margin: 70px 240px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px
+}
+
+.hero-section-product {
+    width: 450px;
+}
+
+.hero-img {
+    height: 330px;
+    border-radius: 300px 300px 0 0;
+
+
+}
+
+#hero-1 {
+    background: #A7216226;
+    width: 300px;
+    padding: 70px 40px 0 20px;
+    background-size: cover;
+
+
+}
+
+#hero-2 {
+    background: #0597A026;
+    width: 300px;
+    padding: 70px 20px 0;
+}
+
+#hero-3 {
+    background: lightyellow;
+    width: 300px;
+    padding: 70px 10px 0;
+}
+
+.hero-img-name {
+    color: #272727;
+    text-align: center;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+/* shop-features */
+
+.shop-features {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 240px;
+    gap: 54px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px 125px
+}
+
+.feature-details {
+    text-align: center;
+
+}
+
+
+.feature-icons {
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.feature-info {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-weight: 600;
+
+}
+
+/* shop-banner */
+.shop-banner {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+    max-height: 600px
+}
+
+.shop-banner-container {
+    width: 60%;
+    margin: 80px 200px;
+    text-align: center
+}
+
+.shop-banner-info {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.shop-banner-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+
+.shop-banner-img {
+    width: 318px;
+    width: 40%;
+    padding: 100px 300px 100px 100px;
+
+}
+
+/* insta section */
+.instagram {
+    margin: 100px 240px;
+
+}
+
+.instagram-name {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.instagram-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+
+.instagram-img-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 10px 240px;
+}
+
+
+.insta-img {
+    width: 242px;
+}
+
+.subscribe {
+    background-image: url("../images/Rectangle 9.png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    margin: 100px 240px;
+}
+
+.subscribe-container {
+    padding: 100px 150px;
+
+}
+
+.subscribe-info {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.subscribe-details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.subscribe-form {
+    text-align: center;
+
+
+}
+
+.subscribe-form input[type="email"] {
+    width: 500px;
+    height: 56px;
+    border-radius: 8px;
+    background: #fff;
+    margin-top: 20px;
+    border: 0
+}
+
+.subscribe-form input[type="email"]::placeholder {
+    padding: 20px
+}
