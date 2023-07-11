@@ -249,6 +249,7 @@ nav ul li a:hover {
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-height: 600px
 }
 
