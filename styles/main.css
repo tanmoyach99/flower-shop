@@ -38,6 +38,11 @@ body {
 
 }
 
+.text-primary {
+    color: #E55473;
+
+}
+
 .shop-primary {
     color: #fff
 }
@@ -240,7 +245,7 @@ nav ul li a:hover {
 
 /* shop-banner */
 .shop-banner {
-    border-radius: 8px;
+
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: space-between;
@@ -255,7 +260,7 @@ nav ul li a:hover {
 
 .shop-banner-info {
     color: #272727;
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 800;
 }
 
